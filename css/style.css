@@ -548,6 +548,97 @@ span{
    
     
 }
+@media only screen and (max-width: 420px){
+    #navbar{
+        /* border: 1px solid red; */
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-primary-dark);
+       
+        flex-direction: column;
+       
+        position: sticky;
+        background-color: black;
+    }
+    .mid ul{
+        flex-direction: column;
+      
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container{
+        width: 100%;
+    }
+    #home{
+        width: 100%;
+
+    }
+    .content{
+        width: 100%;
+    }
+    .content h4{
+        font-size: 2vw;
+
+    }
+    .content h1{
+        font-size: 7vw;
+    }
+    .content h3{
+        font-size: 3vw;
+    }
+    .form form{
+        display: flex;
+        flex-direction: column;
+        width: 12vw;
+    }
+    .form form input:last-child{
+   top: 120%;
+   left: 0%;
+    
+    }
+    .main{
+        flex-direction: column;
+    }
+    .about-text{
+        flex-direction: column;
+    }
+    .about-text h2{
+        font-size: 7vw;
+
+    }
+    .about-text h5{
+        font-size: 4vw;
+
+    }
+    .about-text p{
+        font-size: 2vw;
+
+    }
+    .services{
+        flex-direction: column;
+    }
+    .project-name{
+        flex-direction: column;
+    }
+    .contact-me{
+        flex-direction: column;
+
+    }
+    .con{
+        flex-direction: column;
+       
+    }
+    .main img{
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+   
+   
+    
+
+}
 
 
   
